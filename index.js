@@ -48,28 +48,27 @@ async function postInviteMessage(channel) {
 
   await channel.send({
     embeds: [new EmbedBuilder()
-      .setTitle('🔴🔵 CONCOURS D\'INVITATIONS — CDM DES PARISIENS')
+      .setTitle('🔴🔵 CONCOURS D\'INVITATIONS - CDM DES PARISIENS')
       .setDescription(
         '**🇫🇷 Français**\n' +
-        'Invite un maximum de membres sur le serveur et tente de remporter des lots exclusifs PSG !\n\n' +
-        '🎁 **Récompenses :**\n' +
-        '🥇 1er — Lot à définir\n' +
-        '🥈 2ème — Lot à définir\n' +
-        '🥉 3ème — Lot à définir\n\n' +
+        'Invite un maximum de membres sur le serveur ! Les 3 meilleurs inviteurs remporteront de très beaux lots PSG 🎁\n\n' +
+        '🥇 1er - De très beaux lots t\'attendent\n' +
+        '🥈 2ème - De très beaux lots t\'attendent\n' +
+        '🥉 3ème - De très beaux lots t\'attendent\n\n' +
         'Clique sur **Mes invitations** pour voir ton score.\n' +
         'Clique sur **Obtenir mon lien** pour recevoir ton lien personnel.\n\n' +
         '---\n\n' +
         '**🇬🇧 English**\n' +
-        'Invite as many members as possible to the server and win exclusive PSG prizes!\n\n' +
-        '🎁 **Prizes:**\n' +
-        '🥇 1st place — Prize to be defined\n' +
-        '🥈 2nd place — Prize to be defined\n' +
-        '🥉 3rd place — Prize to be defined\n\n' +
+        'Invite as many members as possible to the server! The top 3 inviters will win amazing PSG prizes 🎁\n\n' +
+        '🥇 1st place - Amazing prizes await you\n' +
+        '🥈 2nd place - Amazing prizes await you\n' +
+        '🥉 3rd place - Amazing prizes await you\n\n' +
         'Click **My invitations** to see your score.\n' +
-        'Click **Get my link** to receive your personal invite link.'
+        'Click **Get my link** to receive your personal invite link.\n\n' +
+        '*The top 3 across all members will be rewarded, regardless of language.*'
       )
       .setColor('#DA291C')
-      .setFooter({ text: '🔴🔵 CDM des Parisiens — Invite tes amis et grimpe dans le classement !' })],
+      .setFooter({ text: '🔴🔵 CDM des Parisiens - Invite tes amis et grimpe dans le classement !' })],
     components: [row]
   })
 }
